@@ -1,4 +1,4 @@
-                                                          MAC mobility
+                                          MAC mobility
 
 VM migration is a very common use case in DC. 
 A VM is originally attached on the local interface of a given leaf, and this VM can be migrated to another lead in the DC for a number of reasons when, for example, the hosting hypervisor needs to be stopped for maintenance.
