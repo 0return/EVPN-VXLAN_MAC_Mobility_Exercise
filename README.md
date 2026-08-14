@@ -16,6 +16,14 @@ Topology pre VM migration:
 
 Before "migrating" Customer1-100, let´s firt check the current state of the MAC table and BGP Routes, the verification below:
 
+Leaf1:
+
 
 <img width="1316" height="398" alt="image" src="https://github.com/user-attachments/assets/75f81358-3fee-413f-bcfc-18e54bc3e728" />
 
+
+Leaf3:
+As expected, leaf3 learns MAC-address of the Customer1-100 is on Leaf2 and MAC-address of the Customer2-100 is on leaf2.
+
+
+<img width="1563" height="806" alt="image" src="https://github.com/user-attachments/assets/0355c237-2dfe-49d1-9acb-c2fee9bdba11" />
