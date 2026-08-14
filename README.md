@@ -11,3 +11,11 @@ It consists of adding a sequence number to the advertise EVPN RT2 IP-MAC routers
 Topology pre VM migration:
 
 <img width="1338" height="423" alt="image" src="https://github.com/user-attachments/assets/2dea63cd-1496-4daf-86ed-d808efadd5ba" />
+
+
+
+Before "migrating" Customer1-100, let´s firt check the current state of the MAC table and BGP Routes, the verification below:
+
+
+<img width="1316" height="398" alt="image" src="https://github.com/user-attachments/assets/75f81358-3fee-413f-bcfc-18e54bc3e728" />
+
