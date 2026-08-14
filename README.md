@@ -19,7 +19,8 @@ Before "migrating" Customer1-100, let´s firt check the current state of the MAC
 Leaf1:
 
 
-<img width="1316" height="398" alt="image" src="https://github.com/user-attachments/assets/75f81358-3fee-413f-bcfc-18e54bc3e728" />
+<img width="1317" height="404" alt="image" src="https://github.com/user-attachments/assets/3e4e1494-9c90-4289-8565-109e2ef56af6" />
+
 
 
 Leaf3:
