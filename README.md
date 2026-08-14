@@ -27,4 +27,5 @@ Leaf3:
 As expected, leaf3 learns MAC-address of the Customer1-100 is on Leaf2 and MAC-address of the Customer2-100 is on leaf2.
 
 
-<img width="1563" height="806" alt="image" src="https://github.com/user-attachments/assets/0355c237-2dfe-49d1-9acb-c2fee9bdba11" />
+<img width="1530" height="835" alt="image" src="https://github.com/user-attachments/assets/c8f44b7b-45b5-489b-bf42-8898d2776994" />
+
