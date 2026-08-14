@@ -29,3 +29,8 @@ As expected, leaf3 learns MAC-address of the Customer1-100 is on Leaf2 and MAC-a
 
 <img width="1530" height="835" alt="image" src="https://github.com/user-attachments/assets/c8f44b7b-45b5-489b-bf42-8898d2776994" />
 
+ ** Migrated Customer1-100, from Leaf1 to Leaf2
+
+ 
+
+Immediately after, check the active EVPN routes on Leaf3 again.
