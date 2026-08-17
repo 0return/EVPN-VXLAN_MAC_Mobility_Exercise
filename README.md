@@ -47,6 +47,11 @@ Immediately after, check the active EVPN routes on Leaf3 again.
 <img width="1541" height="823" alt="image" src="https://github.com/user-attachments/assets/d71419ea-0768-4c52-b0fd-e36b26f54cd6" />
 
 
+Leaf1 is no longer learning the MAC address of Customer100-1 via its physical link e1-3.
+
+<img width="1439" height="400" alt="image" src="https://github.com/user-attachments/assets/7f0e816d-fd4b-4cf2-b6cf-785673fb67d2" />
+
+
 Moves the MAC back to leaf1 
 Each migration increments the sequence number again (1 → 2 → 3…). This is expected and instructive: you can go back and forth several times, watching it rise.
 
