@@ -47,7 +47,7 @@ Immediately after, check the active EVPN routes on Leaf3 again.
 <img width="1541" height="823" alt="image" src="https://github.com/user-attachments/assets/d71419ea-0768-4c52-b0fd-e36b26f54cd6" />
 
 
-sudo ./migrate.sh leaf2 e1-5 leaf1 e1-3   # moves the MAC back to leaf1 
+Moves the MAC back to leaf1 
 Each migration increments the sequence number again (1 → 2 → 3…). This is expected and instructive: you can go back and forth several times, watching it rise.
 
 
