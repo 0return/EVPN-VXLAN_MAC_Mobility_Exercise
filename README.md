@@ -29,8 +29,28 @@ As expected, leaf3 learns MAC-address of the Customer1-100 is on Leaf2 and MAC-a
 
 <img width="1530" height="835" alt="image" src="https://github.com/user-attachments/assets/c8f44b7b-45b5-489b-bf42-8898d2776994" />
 
- ** Migrated Customer1-100, from Leaf1 to Leaf2
-
+ 
+ ** Migrated Customer1-100, from Leaf1 to Leaf2, you can run the following Bash scrip. (Internally, it moves the far-end of the veth pair leaf1:e1-3 → leaf2:e1-5 (down → rename → netns move → rename → up) and triggers a GARP from the client so that leaf2 learns the MAC address immediately. It does not touch the client's eth1 or BGP)
  
 
+<img width="678" height="130" alt="image" src="https://github.com/user-attachments/assets/bcb34a9a-57cc-4742-9d2a-89771c343d03" />
+
+  
+
 Immediately after, check the active EVPN routes on Leaf3 again.
+
+<img width="1541" height="823" alt="image" src="https://github.com/user-attachments/assets/d71419ea-0768-4c52-b0fd-e36b26f54cd6" />
+
+
+sudo ./migrate.sh leaf2 e1-5 leaf1 e1-3   # moves the MAC back to leaf1 
+Each migration increments the sequence number again (1 → 2 → 3…). This is expected and instructive: you can go back and forth several times, watching it rise.
+
+
+<img width="660" height="122" alt="image" src="https://github.com/user-attachments/assets/736f2fcb-96ca-4737-9725-b901ac83cfb8" />
+
+
+Leaf3 confirmation.
+
+
+<img width="1525" height="826" alt="image" src="https://github.com/user-attachments/assets/cd967e5b-cc82-4506-9865-c86253ce6689" />
+
