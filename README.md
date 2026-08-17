@@ -35,6 +35,11 @@ As expected, leaf3 learns MAC-address of the Customer1-100 is on Leaf2 and MAC-a
 
 <img width="678" height="130" alt="image" src="https://github.com/user-attachments/assets/bcb34a9a-57cc-4742-9d2a-89771c343d03" />
 
+
+New Topology:
+
+<img width="918" height="317" alt="image" src="https://github.com/user-attachments/assets/fdc8eba9-49c7-40b9-aa7c-23f4714635cb" />
+
   
 
 Immediately after, check the active EVPN routes on Leaf3 again.
